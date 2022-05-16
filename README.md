@@ -1,15 +1,3 @@
 # sonny's logbook
-注意点记录本，解题记录本
-<br/><br/>
+易忘点、常错点、重点记录本
 
-
-## 勾选框下置解决办法
-```js
-.ant-checkbox {
-    vertical-align: top;
-}
-```
-## 会话储存获取变量为字符串
-`let info = sessionStorage.getItem('xxx')` 返回一个字符串 <br/>
-所以 `info` 为string，`info.userID` 报错 <br/>
-需要 `JSON.parse()` 才能获取属性 <br/>
