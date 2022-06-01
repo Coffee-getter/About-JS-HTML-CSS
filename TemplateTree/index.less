@@ -1,0 +1,49 @@
+.template-manage-tree {
+  .ant-tree-node-content-wrapper {
+    min-width: calc(100% - 24px);
+    .ant-tree-title {
+      padding-left: 2px;
+      height: 20px;
+      display: inline-flex;
+      justify-content: space-between;
+      min-width: calc(100% - 24px);
+      align-items: center;
+    }
+    .ant-tree-iconEle {
+      height: 20px;
+      line-height: 20px;
+    }
+  }
+  &-icon {
+    padding-right: 10px;
+    img {
+      margin-top: 2px;
+      margin-left: 10px;
+    }
+  }
+  &-edit {
+    display: inline-flex;
+    align-items: center;
+    input {
+      width: 200px;
+    }
+    span {
+      padding-right: 10px;
+    }
+    i {
+      padding-left: 10px;
+    }
+  }
+  li .ant-tree-node-content-wrapper {
+    padding-left: 0px;
+  }
+  .anticon {
+    vertical-align: -1px;
+  }
+  &-folder {
+    padding-top: 1px;
+  }
+  &-leaf {
+    padding-top: 0px;
+  }
+}
