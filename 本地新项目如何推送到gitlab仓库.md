@@ -6,14 +6,19 @@
 
 1. 进入VSCODE的setting.json文件
 
-3. 写入以下代码
+2. setting.json写入以下代码
 
 ```js
 "http.proxy": "http://xxx.xxx.xxx.xxx:8080",
 "http.proxyStrictSSL": false
 ```
-
-
+3. 另外,全局项目也设置代理<br/>
+  进入cmd中，运行以下代码 <br/>
+  其中端口号在电脑设置中查找代理中可找到<br/>
+  
+  ```js
+  git config --global http.proxy 127.0.0.1:xxxxx
+  ```
 
 
 <h2>gitlab初始推送</h2>
